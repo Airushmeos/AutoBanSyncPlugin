@@ -1,0 +1,18 @@
+enabled: true
+api-url: "https://myfirstwebsite.lima-city.at/minecraft/plugin/ban/index.php?p=api_bans"
+api-create-url: "https://myfirstwebsite.lima-city.at/minecraft/plugin/ban/index.php?p=api_create_ban"
+
+# Trage hier deinen persönlichen Token aus deinem Webpanel-Konto ein
+api-token: "DEIN_PERSOENLICHER_TOKEN_HIER"
+
+sync-interval-minutes: 10
+sync-on-startup: true
+connect-timeout-seconds: 10
+read-timeout-seconds: 10
+max-entries: 1000
+
+ban-reason-prefix: "[AutoBanSync] "
+kick-message: "Du wurdest auf Basis einer verifizierten Server-Meldung gebannt."
+debug-mode: false
+passby-players: []
+blacklist-players: []

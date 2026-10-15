@@ -1,0 +1,17 @@
+name: autobansync
+version: '${version}'
+
+main: at.Airushmeos.autobansync.AutoBanSync
+api-version: '1.21.11'
+load: POSTWORLD
+
+authors: [ Airushmeos ]
+commands:
+  autobansync:
+    description: Hauptbefehl für AutoBanSync
+    permission: autobansync.admin
+    usage: /autobansync <status|sync|reload|help|ban|tempban>
+permissions:
+  autobansync.admin:
+    description: Erlaubt die Steuerung und Verwaltung von AutoBanSync
+    default: op
